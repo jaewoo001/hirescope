@@ -9,3 +9,4 @@ tsconfig.tsbuildinfo
 *.tsbuildinfo
 demo/
 dev.log
+.pptx-tools/

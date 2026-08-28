@@ -23,7 +23,9 @@
     "demo:resume": "tsx scripts/demo-resume.ts",
     "demo:live": "tsx scripts/demo-seed-live.ts",
     "demo:compare": "tsx scripts/demo-compare.ts",
-    "demo:onepager": "tsx scripts/demo-onepager.ts"
+    "demo:onepager": "tsx scripts/demo-onepager.ts",
+    "demo:shots": "tsx scripts/demo-shots.ts",
+    "demo:deck": "node scripts/demo-deck.cjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.120.0",
@@ -41,6 +43,7 @@
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
     "playwright": "^1.62.1",
+    "pptxgenjs": "^4.0.1",
     "prisma": "^6.3.0",
     "tailwindcss": "^4.0.0",
     "tsx": "^4.19.2",
